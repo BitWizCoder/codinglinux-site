@@ -2,9 +2,14 @@ import Link from "next/link";
 
 function BlogCard() {
   return (
-    <div className="bg-white shadow-sm p-8 w-[800px] relative">
-      <h1 className="text-5xl mb-3">Far far away, behind the word mountains</h1>
-      <p className="mb-8"> August 15, 20192 Min Read 1 5603</p>
+    <div className="bg-white shadow-sm p-8 w-[800px]">
+      <Link href={"/"} className="text-5xl mb-6 group relative leading-[55px]">
+        <span className="hover:border-b-4 border-red-400 duration-300 ">
+          Far far away, behind the word mountains
+        </span>
+        {/* <span className="absolute -bottom-1 left-0 w-0 h-1 bg-blue-400 transition-all group-hover:w-full"></span> */}
+      </Link>
+      <p className="mb-8 mt-4"> August 15, 20192 Min Read 1 5603</p>
 
       <p className="mb-10">
         Far far away, behind the word mountains, far from the countries Vokalia

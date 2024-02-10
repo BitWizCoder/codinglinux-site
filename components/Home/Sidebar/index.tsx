@@ -4,7 +4,7 @@ import Tags from "./Tags";
 
 function Sidebar() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-start">
       <RecentPosts />
       <Tags />
       <Social />
